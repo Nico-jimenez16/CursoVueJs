@@ -28,3 +28,20 @@ instancia1.mostrarDatos();
 
 let instancia2 = new perro("Moni" , "Juncos");
 instancia2.mostrarDatos();
+
+
+// Aqui usamos async and await para manipular el return
+// const fetchProducts = async (url) => {
+
+//     try {    
+//       const res = await fetch(url);
+//       const products = await res.json();
+//       console.log(products);
+//     } catch (err) { console.log (err) }
+//   }
+  
+//   fetchProducts(url)
+
+
+import {UlidadesPublicas} from "./Utils/FuncionesPublicas.js";
+UlidadesPublicas();
